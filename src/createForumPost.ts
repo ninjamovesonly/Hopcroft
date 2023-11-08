@@ -4,7 +4,13 @@ import { customProblem } from "./problems.js";
 
 export const TIMEOUT = 3600000;
 const TOTAL_ATTEMPTS = 1;
-let attempts = 0;
+let attempts = 5;
+const DSA_TOPICS = {
+  ARRAY: "array",
+  LINKED_LIST: "linked-list",
+  TREE: "tree",
+  GRAPH: "graph",
+};
 
 const _capitalize = (inputString) => {
   if (!inputString.includes("-")) {
@@ -25,7 +31,7 @@ const _capitalize = (inputString) => {
 };
 
 export async function createForumPost(client: Client, forum: ForumChannel) {
-  const dsaTopic = "linked-list";
+  const dsaTopic = DSA_TOPICS.ARRAY;
   const result = await customProblem(dsaTopic);
 
   if (result !== undefined) {
