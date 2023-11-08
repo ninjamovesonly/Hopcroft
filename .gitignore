@@ -3,3 +3,4 @@ node_modules
 hopcroftsidekiq.pem
 dist
 public/posts.json
+public/config.json
