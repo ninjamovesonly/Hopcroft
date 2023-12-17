@@ -20,59 +20,36 @@ export const DATA = [
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Plus One",
-    titleSlug: "plus-one",
+    title: "Sqrt(x)",
+    titleSlug: "sqrtx",
     topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
       {
         name: "Math",
         id: "VG9waWNUYWdOb2RlOjg=",
         slug: "math",
       },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Merge Sorted Array",
-    titleSlug: "merge-sorted-array",
-    topicTags: [
       {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Two Pointers",
-        id: "VG9waWNUYWdOb2RlOjk=",
-        slug: "two-pointers",
-      },
-      {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Convert Sorted Array to Binary Search Tree",
-    titleSlug: "convert-sorted-array-to-binary-search-tree",
+    title: "Count Complete Tree Nodes",
+    titleSlug: "count-complete-tree-nodes",
     topicTags: [
       {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
-        name: "Divide and Conquer",
-        id: "VG9waWNUYWdOb2RlOjEy",
-        slug: "divide-and-conquer",
+        name: "Bit Manipulation",
+        id: "VG9waWNUYWdOb2RlOjE5",
+        slug: "bit-manipulation",
       },
       {
         name: "Tree",
@@ -80,178 +57,9 @@ export const DATA = [
         slug: "tree",
       },
       {
-        name: "Binary Search Tree",
-        id: "VG9waWNUYWdOb2RlOjMw",
-        slug: "binary-search-tree",
-      },
-      {
         name: "Binary Tree",
         id: "VG9waWNUYWdOb2RlOjYxMDU3",
         slug: "binary-tree",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Pascal's Triangle",
-    titleSlug: "pascals-triangle",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Dynamic Programming",
-        id: "VG9waWNUYWdOb2RlOjEz",
-        slug: "dynamic-programming",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Pascal's Triangle II",
-    titleSlug: "pascals-triangle-ii",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Dynamic Programming",
-        id: "VG9waWNUYWdOb2RlOjEz",
-        slug: "dynamic-programming",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Best Time to Buy and Sell Stock",
-    titleSlug: "best-time-to-buy-and-sell-stock",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Dynamic Programming",
-        id: "VG9waWNUYWdOb2RlOjEz",
-        slug: "dynamic-programming",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Single Number",
-    titleSlug: "single-number",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Bit Manipulation",
-        id: "VG9waWNUYWdOb2RlOjE5",
-        slug: "bit-manipulation",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Majority Element",
-    titleSlug: "majority-element",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "Divide and Conquer",
-        id: "VG9waWNUYWdOb2RlOjEy",
-        slug: "divide-and-conquer",
-      },
-      {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
-      },
-      {
-        name: "Counting",
-        id: "VG9waWNUYWdOb2RlOjYxMDYy",
-        slug: "counting",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Contains Duplicate",
-    titleSlug: "contains-duplicate",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Contains Duplicate II",
-    titleSlug: "contains-duplicate-ii",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "Sliding Window",
-        id: "VG9waWNUYWdOb2RlOjU1ODIx",
-        slug: "sliding-window",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Summary Ranges",
-    titleSlug: "summary-ranges",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
       },
     ],
   },
@@ -295,42 +103,52 @@ export const DATA = [
   },
   {
     difficulty: "Easy",
-    paidOnly: false,
-    title: "Move Zeroes",
-    titleSlug: "move-zeroes",
+    paidOnly: true,
+    title: "Closest Binary Search Tree Value",
+    titleSlug: "closest-binary-search-tree-value",
     topicTags: [
       {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
-        name: "Two Pointers",
-        id: "VG9waWNUYWdOb2RlOjk=",
-        slug: "two-pointers",
+        name: "Tree",
+        id: "VG9waWNUYWdOb2RlOjIw",
+        slug: "tree",
+      },
+      {
+        name: "Depth-First Search",
+        id: "VG9waWNUYWdOb2RlOjIx",
+        slug: "depth-first-search",
+      },
+      {
+        name: "Binary Search Tree",
+        id: "VG9waWNUYWdOb2RlOjMw",
+        slug: "binary-search-tree",
+      },
+      {
+        name: "Binary Tree",
+        id: "VG9waWNUYWdOb2RlOjYxMDU3",
+        slug: "binary-tree",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Range Sum Query - Immutable",
-    titleSlug: "range-sum-query-immutable",
+    title: "First Bad Version",
+    titleSlug: "first-bad-version",
     topicTags: [
       {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
-        name: "Design",
-        id: "VG9waWNUYWdOb2RlOjI1",
-        slug: "design",
-      },
-      {
-        name: "Prefix Sum",
-        id: "VG9waWNUYWdOb2RlOjYxMDY4",
-        slug: "prefix-sum",
+        name: "Interactive",
+        id: "VG9waWNUYWdOb2RlOjYxMDU5",
+        slug: "interactive",
       },
     ],
   },
@@ -403,8 +221,62 @@ export const DATA = [
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Third Maximum Number",
-    titleSlug: "third-maximum-number",
+    title: "Valid Perfect Square",
+    titleSlug: "valid-perfect-square",
+    topicTags: [
+      {
+        name: "Math",
+        id: "VG9waWNUYWdOb2RlOjg=",
+        slug: "math",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Guess Number Higher or Lower",
+    titleSlug: "guess-number-higher-or-lower",
+    topicTags: [
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Interactive",
+        id: "VG9waWNUYWdOb2RlOjYxMDU5",
+        slug: "interactive",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Arranging Coins",
+    titleSlug: "arranging-coins",
+    topicTags: [
+      {
+        name: "Math",
+        id: "VG9waWNUYWdOb2RlOjg=",
+        slug: "math",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Binary Search",
+    titleSlug: "binary-search",
     topicTags: [
       {
         name: "Array",
@@ -412,17 +284,35 @@ export const DATA = [
         slug: "array",
       },
       {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Find All Numbers Disappeared in an Array",
-    titleSlug: "find-all-numbers-disappeared-in-an-array",
+    title: "Find Smallest Letter Greater Than Target",
+    titleSlug: "find-smallest-letter-greater-than-target",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Fair Candy Swap",
+    titleSlug: "fair-candy-swap",
     topicTags: [
       {
         name: "Array",
@@ -434,13 +324,41 @@ export const DATA = [
         id: "VG9waWNUYWdOb2RlOjY=",
         slug: "hash-table",
       },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Sorting",
+        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
+        slug: "sorting",
+      },
     ],
   },
   {
     difficulty: "Easy",
-    paidOnly: false,
-    title: "Assign Cookies",
-    titleSlug: "assign-cookies",
+    paidOnly: true,
+    title: "Fixed Point",
+    titleSlug: "fixed-point",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: true,
+    title: "Two Sum Less Than K",
+    titleSlug: "two-sum-less-than-k",
     topicTags: [
       {
         name: "Array",
@@ -453,9 +371,9 @@ export const DATA = [
         slug: "two-pointers",
       },
       {
-        name: "Greedy",
-        id: "VG9waWNUYWdOb2RlOjE3",
-        slug: "greedy",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
         name: "Sorting",
@@ -466,9 +384,9 @@ export const DATA = [
   },
   {
     difficulty: "Easy",
-    paidOnly: false,
-    title: "Island Perimeter",
-    titleSlug: "island-perimeter",
+    paidOnly: true,
+    title: "Check If a Number Is Majority Element in a Sorted Array",
+    titleSlug: "check-if-a-number-is-majority-element-in-a-sorted-array",
     topicTags: [
       {
         name: "Array",
@@ -476,58 +394,17 @@ export const DATA = [
         slug: "array",
       },
       {
-        name: "Depth-First Search",
-        id: "VG9waWNUYWdOb2RlOjIx",
-        slug: "depth-first-search",
-      },
-      {
-        name: "Breadth-First Search",
-        id: "VG9waWNUYWdOb2RlOjIy",
-        slug: "breadth-first-search",
-      },
-      {
-        name: "Matrix",
-        id: "VG9waWNUYWdOb2RlOjYxMDUz",
-        slug: "matrix",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
     ],
   },
   {
     difficulty: "Easy",
-    paidOnly: false,
-    title: "Max Consecutive Ones",
-    titleSlug: "max-consecutive-ones",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Teemo Attacking",
-    titleSlug: "teemo-attacking",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Simulation",
-        id: "VG9waWNUYWdOb2RlOjYxMDU1",
-        slug: "simulation",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Next Greater Element I",
-    titleSlug: "next-greater-element-i",
+    paidOnly: true,
+    title: "Intersection of Three Sorted Arrays",
+    titleSlug: "intersection-of-three-sorted-arrays",
     topicTags: [
       {
         name: "Array",
@@ -540,22 +417,22 @@ export const DATA = [
         slug: "hash-table",
       },
       {
-        name: "Stack",
-        id: "VG9waWNUYWdOb2RlOjE1",
-        slug: "stack",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
-        name: "Monotonic Stack",
-        id: "VG9waWNUYWdOb2RlOjYxMDU0",
-        slug: "monotonic-stack",
+        name: "Counting",
+        id: "VG9waWNUYWdOb2RlOjYxMDYy",
+        slug: "counting",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Keyboard Row",
-    titleSlug: "keyboard-row",
+    title: "The K Weakest Rows in a Matrix",
+    titleSlug: "the-k-weakest-rows-in-a-matrix",
     topicTags: [
       {
         name: "Array",
@@ -563,27 +440,9 @@ export const DATA = [
         slug: "array",
       },
       {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "String",
-        id: "VG9waWNUYWdOb2RlOjEw",
-        slug: "string",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Relative Ranks",
-    titleSlug: "relative-ranks",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
         name: "Sorting",
@@ -595,18 +454,176 @@ export const DATA = [
         id: "VG9waWNUYWdOb2RlOjYxMDUw",
         slug: "heap-priority-queue",
       },
+      {
+        name: "Matrix",
+        id: "VG9waWNUYWdOb2RlOjYxMDUz",
+        slug: "matrix",
+      },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Array Partition",
-    titleSlug: "array-partition",
+    title: "Check If N and Its Double Exist",
+    titleSlug: "check-if-n-and-its-double-exist",
     topicTags: [
       {
         name: "Array",
         id: "VG9waWNUYWdOb2RlOjU=",
         slug: "array",
+      },
+      {
+        name: "Hash Table",
+        id: "VG9waWNUYWdOb2RlOjY=",
+        slug: "hash-table",
+      },
+      {
+        name: "Two Pointers",
+        id: "VG9waWNUYWdOb2RlOjk=",
+        slug: "two-pointers",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Sorting",
+        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
+        slug: "sorting",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Count Negative Numbers in a Sorted Matrix",
+    titleSlug: "count-negative-numbers-in-a-sorted-matrix",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Matrix",
+        id: "VG9waWNUYWdOb2RlOjYxMDUz",
+        slug: "matrix",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Find the Distance Value Between Two Arrays",
+    titleSlug: "find-the-distance-value-between-two-arrays",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Two Pointers",
+        id: "VG9waWNUYWdOb2RlOjk=",
+        slug: "two-pointers",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Sorting",
+        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
+        slug: "sorting",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Kth Missing Positive Number",
+    titleSlug: "kth-missing-positive-number",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Special Array With X Elements Greater Than or Equal X",
+    titleSlug: "special-array-with-x-elements-greater-than-or-equal-x",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Sorting",
+        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
+        slug: "sorting",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Find Target Indices After Sorting Array",
+    titleSlug: "find-target-indices-after-sorting-array",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
+      },
+      {
+        name: "Sorting",
+        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
+        slug: "sorting",
+      },
+    ],
+  },
+  {
+    difficulty: "Easy",
+    paidOnly: false,
+    title: "Longest Subsequence With Limited Sum",
+    titleSlug: "longest-subsequence-with-limited-sum",
+    topicTags: [
+      {
+        name: "Array",
+        id: "VG9waWNUYWdOb2RlOjU=",
+        slug: "array",
+      },
+      {
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
         name: "Greedy",
@@ -619,17 +636,17 @@ export const DATA = [
         slug: "sorting",
       },
       {
-        name: "Counting Sort",
-        id: "VG9waWNUYWdOb2RlOjYxMDcy",
-        slug: "counting-sort",
+        name: "Prefix Sum",
+        id: "VG9waWNUYWdOb2RlOjYxMDY4",
+        slug: "prefix-sum",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Reshape the Matrix",
-    titleSlug: "reshape-the-matrix",
+    title: "Maximum Count of Positive Integer and Negative Integer",
+    titleSlug: "maximum-count-of-positive-integer-and-negative-integer",
     topicTags: [
       {
         name: "Array",
@@ -637,40 +654,22 @@ export const DATA = [
         slug: "array",
       },
       {
-        name: "Matrix",
-        id: "VG9waWNUYWdOb2RlOjYxMDUz",
-        slug: "matrix",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
       {
-        name: "Simulation",
-        id: "VG9waWNUYWdOb2RlOjYxMDU1",
-        slug: "simulation",
+        name: "Counting",
+        id: "VG9waWNUYWdOb2RlOjYxMDYy",
+        slug: "counting",
       },
     ],
   },
   {
     difficulty: "Easy",
     paidOnly: false,
-    title: "Distribute Candies",
-    titleSlug: "distribute-candies",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Longest Harmonious Subsequence",
-    titleSlug: "longest-harmonious-subsequence",
+    title: "Minimum Common Value",
+    titleSlug: "minimum-common-value",
     topicTags: [
       {
         name: "Array",
@@ -683,191 +682,14 @@ export const DATA = [
         slug: "hash-table",
       },
       {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Range Addition II",
-    titleSlug: "range-addition-ii",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
+        name: "Two Pointers",
+        id: "VG9waWNUYWdOb2RlOjk=",
+        slug: "two-pointers",
       },
       {
-        name: "Math",
-        id: "VG9waWNUYWdOb2RlOjg=",
-        slug: "math",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Minimum Index Sum of Two Lists",
-    titleSlug: "minimum-index-sum-of-two-lists",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "String",
-        id: "VG9waWNUYWdOb2RlOjEw",
-        slug: "string",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Can Place Flowers",
-    titleSlug: "can-place-flowers",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Greedy",
-        id: "VG9waWNUYWdOb2RlOjE3",
-        slug: "greedy",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Maximum Product of Three Numbers",
-    titleSlug: "maximum-product-of-three-numbers",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Math",
-        id: "VG9waWNUYWdOb2RlOjg=",
-        slug: "math",
-      },
-      {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Maximum Average Subarray I",
-    titleSlug: "maximum-average-subarray-i",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Sliding Window",
-        id: "VG9waWNUYWdOb2RlOjU1ODIx",
-        slug: "sliding-window",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Set Mismatch",
-    titleSlug: "set-mismatch",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Hash Table",
-        id: "VG9waWNUYWdOb2RlOjY=",
-        slug: "hash-table",
-      },
-      {
-        name: "Bit Manipulation",
-        id: "VG9waWNUYWdOb2RlOjE5",
-        slug: "bit-manipulation",
-      },
-      {
-        name: "Sorting",
-        id: "VG9waWNUYWdOb2RlOjYxMDQ5",
-        slug: "sorting",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Image Smoother",
-    titleSlug: "image-smoother",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Matrix",
-        id: "VG9waWNUYWdOb2RlOjYxMDUz",
-        slug: "matrix",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Longest Continuous Increasing Subsequence",
-    titleSlug: "longest-continuous-increasing-subsequence",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-    ],
-  },
-  {
-    difficulty: "Easy",
-    paidOnly: false,
-    title: "Baseball Game",
-    titleSlug: "baseball-game",
-    topicTags: [
-      {
-        name: "Array",
-        id: "VG9waWNUYWdOb2RlOjU=",
-        slug: "array",
-      },
-      {
-        name: "Stack",
-        id: "VG9waWNUYWdOb2RlOjE1",
-        slug: "stack",
-      },
-      {
-        name: "Simulation",
-        id: "VG9waWNUYWdOb2RlOjYxMDU1",
-        slug: "simulation",
+        name: "Binary Search",
+        id: "VG9waWNUYWdOb2RlOjEx",
+        slug: "binary-search",
       },
     ],
   },
