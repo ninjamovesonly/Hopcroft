@@ -1,6 +1,7 @@
 node_modules
 .env
 hopcroftsidekiq.pem
+NinjaMovesOnly.pem
 dist
 public/posts.json
 public/config.json
