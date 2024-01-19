@@ -11,6 +11,7 @@ const DSA_TOPICS = {
   TREE: "tree",
   GRAPH: "graph",
   BINARY_SEARCH: "binary-search",
+  BINARY_TREE: "binary-tree",
 };
 
 const _capitalize = (inputString) => {
@@ -32,7 +33,7 @@ const _capitalize = (inputString) => {
 };
 
 export async function createForumPost(client: Client, forum: ForumChannel) {
-  const dsaTopic = DSA_TOPICS.BINARY_SEARCH;
+  const dsaTopic = DSA_TOPICS.BINARY_TREE;
   const result = await customProblem(dsaTopic);
 
   if (result !== undefined) {
